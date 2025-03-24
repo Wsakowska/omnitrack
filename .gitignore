@@ -1,0 +1,64 @@
+# -----------------------
+#  OS-Specific
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+#  Node.js
+# -----------------------
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+.pnp/
+.pnp.js
+# Ignore local env files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+dist/
+build/
+
+# -----------------------
+#  Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+Pipfile
+Pipfile.lock
+
+# In case of .env for Python
+.env
+
+# -----------------------
+#  Docker
+# -----------------------
+docker-compose.override.yml
+*.log
+*.pid
+
+# -----------------------
+#  Coverage Reports
+# -----------------------
+coverage/
+.nyc_output/
+coverage-final.json
+
+# -----------------------
+#  IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+
